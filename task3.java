@@ -1,3 +1,4 @@
+import java.util.LinkedHashMap;
 import java.util.Scanner;
 
 
@@ -5,13 +6,13 @@ public class task3 {
 
 
     // public static void calcul(String[] args) {
-    public static void calcul(int num1, int num2, char operation) {
-        num1 = getInt();
-        num2 = getInt();
-        operation = getOperation();
-        int result = calc(num1,num2,operation);
-        System.out.println("Результат операции: "+result);
-    }
+    // public static void calcul(int num1, int num2, char operation) {
+        // int num1 = getInt();
+        // int num2 = getInt();
+        // char operation = getOperation();
+        // int result = calc(num1,num2,operation);
+        // System.out.println("Результат операции: "+result);
+    // }
 
     public static int getInt(){
         System.out.println("Введите число:");
@@ -65,5 +66,6 @@ public class task3 {
         }
         return result;
     }
+
 }
 
