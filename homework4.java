@@ -1,6 +1,6 @@
-import java.lang.StringBuilder;
 import java.util.LinkedList;
 import java.util.LinkedHashMap;
+import java.util.Scanner;
 public class homework4{
     public static void main(String[] args) {
 
@@ -11,8 +11,20 @@ public class homework4{
         list.add("d");
         list.add("e");
         list.add("f");
+
+
+
         task1 task1 = new task1();
         System.out.println(task1.reverseLinkedList(list));
+
+        task2 task2= new task2();
+        System.out.println("Enter the element");
+        String element = "z";
+        System.out.println(task2.enQueue(list, element));
+        System.out.println(task2.deQueue(list));
+        task2.first(list);
+
+        
     
     // task3 task3 = new task3();
     // int num1 = task3.getInt();
